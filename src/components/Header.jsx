@@ -5,11 +5,12 @@ import CardProjects from './CardProjects';
 const Header = () => {
     const [visibleCard, setVisibleCard] = useState(false);
     return (
-        <header className="h-16 shadow-md w-full flex items-center justify-around">
+        <header className="h-16 fixed bg-white shadow-md w-full flex items-center justify-around">
             <h2 className="font-extrabold text-xl">Portfólio</h2>
             <ul className="flex">
-                <li className="mx-6 font-medium"><Link to="/">Home</Link></li>
-                <li className="mx-6 font-medium"><Link to="/about">Sobre</Link></li>
+                <li className="mx-6 font-medium"><a href="#home">Home</a></li>
+                <li className="mx-6 font-medium"><a href="#sobre">Sobre</a></li>
+                <li className="mx-6 font-medium"><a href="#habilidades">Habilidades</a></li>
                 <li className="mx-6 font-medium">
                     <button type="button" onClick={() => setVisibleCard(!visibleCard)}>Projetos</button>
                     {visibleCard ? <CardProjects /> : ''}
