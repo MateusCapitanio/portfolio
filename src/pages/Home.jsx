@@ -69,15 +69,17 @@ const Home = () => {
             </div>
 
             <section className="flex justify-around init-hidden flex-wrap">
+                <div className=" flex w-1/2 justify-center"><h1 className="text-6xl lg:mt-56 font-extrabold text-center underline underline-offset-4 decoration-yellow-200">Um pouco <br/>sobre a minha história</h1></div>
                 <div className="text-lg m-10 font-mono w-96">Meu nome é Mateus felipe Ribeiro Capitanio, tenho 26 anos,
-                    nascido e crescido em Realengo, Rio de Janeiro. Sempre fui
+                    carioca, nascido e crescido no Rio de Janeiro. Sempre fui
                     muito apaixonado em tecnologia, adoro videogames, computadores.
                     Sempre fui muito dedicado aos estudos, e quando estava no meu ensino médio
-                    fazendo um curso de Design Gráfico e Web Designer, eu tive o meu primeiro contato com programação.
+                    fazendo um curso de Web Design, eu tive o meu primeiro contato com programação.
                     Desde então eu segui estudando por conta própria, até que ingressei na Trybe
-                    e à partir daí venho evoluindo mais e mais a cada dia.
+                    e à partir daí venho evoluindo mais e mais a cada dia. Meu maior desejo com a programação
+                    é poder mudar a vida das pessoas através da tecnologia, e também gostaria de trabalhar com
+                    desenvolvimento de jogos futuramente.
                 </div>
-                <div className=" flex w-1/2 justify-center"><h1 className="text-6xl mt-20 font-extrabold text-center underline underline-offset-4 decoration-yellow-200">Um pouco <br/>sobre a minha história</h1></div>
             </section>
 
             <div className="flex justify-center">
@@ -87,17 +89,6 @@ const Home = () => {
             <section id="habilidades" className="flex init-hidden flex-col h-auto mt-10 items-center bg-black-950">
                 <h1 className="text-white text-4xl mt-12 font-thin">Habilidades</h1>
                 <CardSkills />
-                {/* <ul className="flex items-center m-20 flex-wrap">
-                    <li className="m-2 text-white font-extrabold"><SiJavascript size={45} color="yellow" /> </li>
-                    <li className="m-2 text-white font-extrabold"><SiTypescript size={45} color="blue" /> </li>
-                    <li className="m-2 text-white font-extrabold"><SiReact size={45} color="aquamarine" /></li>
-                    <li className="m-2 text-white font-extrabold"><SiJest size={45} color="red" /></li>
-                    <li className="m-2 text-white font-extrabold"><IoLogoNodejs size={45} color="green" /></li>
-                    <li className="m-2 text-white font-extrabold text-xl">Express.js</li>
-                    <li className="m-2 text-white font-extrabold"><SiDocker size={45} color="aquamarine" /></li>
-                    <li className="m-2 text-white font-extrabold"><SiTailwindcss size={45} color="aquamarine" /></li>
-                    <li className="m-2 text-white font-extrabold"><SiRedux size={45} color="purple" /></li>
-                </ul> */}
                 <p className="text-white text-lg">Copyright &copy; 2022 - Mateus Capitanio</p>
             </section>
         </div>
