@@ -5,8 +5,8 @@ const Header = () => {
     const [visibleCard, setVisibleCard] = useState(false);
     return (
         <header className="h-16 fixed bg-white shadow-md w-full flex items-center justify-around">
-            <h2 className="font-extrabold text-xl">Portfólio</h2>
             <section className="flex flex-wrap">
+                <h2 className="font-extrabold text-xl">Portfólio</h2>
                 <ul className="flex">
                     <li className="mx-6 font-medium"><a href="#home">Home</a></li>
                     <li className="mx-6 font-medium"><a href="#sobre">Sobre</a></li>
