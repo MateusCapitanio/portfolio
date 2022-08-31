@@ -4,7 +4,7 @@ import CardProjects from './CardProjects';
 const Header = () => {
     const [visibleCard, setVisibleCard] = useState(false);
     return (
-        <header className="h-16 fixed bg-white shadow-md flex items-center justify-around w-screen overflow-x-scroll overflow-y-hidden lg:overflow-x-hidden whitespace-nowrap">
+        <header className="h-16 bg-white shadow-md flex items-center justify-around w-screen overflow-x-scroll overflow-y-hidden lg:overflow-x-hidden whitespace-nowrap">
             <h2 className="font-extrabold text-xl">Portfólio</h2>
             <ul className="flex">
                 <li className="mx-6 font-medium"><a href="#home">Home</a></li>
