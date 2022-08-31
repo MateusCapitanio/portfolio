@@ -1,6 +1,7 @@
 # Portfólio de Mateus Capitanio
 
-Nesta aplicação react estão difinidas algumas de minhas habilidades e um pouco da minha história.
+Nesta aplicação React estão definidas algumas de minhas habilidades e um pouco da minha história.
+A proposta dessa aplicação é apresentar um breve resumo sobre mim e alguns projetos que eu já executei durante minha trajetória de estudos.
 
 ## Deploy da aplicação.
 
