@@ -24,11 +24,6 @@ const CardProjects = () => {
                     target="_blank"
                     href="https://github.com/MateusCapitanio/TrybeTunesProject"
                 ><li className="p-2 hover:bg-yellow-200 hover:duration-300">Trybe Tunes</li></a>
-                <a
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://github.com/MateusCapitanio/Planning"
-                ><li className="p-2 hover:bg-yellow-200 hover:duration-200">Planning</li></a>
             </ul>
         </div>
     );
