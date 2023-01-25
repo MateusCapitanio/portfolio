@@ -4,7 +4,8 @@ import {
     SiJest,
     SiDocker,
     SiTailwindcss,
-    SiTypescript
+    SiTypescript,
+    SiExpress
 } from 'react-icons/si';
 import { IoLogoNodejs } from 'react-icons/io';
 
@@ -37,7 +38,7 @@ const CardSkills = () => {
                     <p className="mt-4">Tailwind</p>
                 </div>
                 <div className="flex flex-col items-center text-cente text-white h-44 pt-10 rounded-md	 m-4 p-4 max-w-md w-36 hover:bg-yellow-200 hover:text-black-950 hover:duration-300 border border-yellow-200 text-xl">
-                    <SiExpress  size={45} color="aquamarine" />
+                    <SiExpress  size={45} color="white" />
                     <p className="mt-4">Tailwind</p>
                 </div>
             </section>
