@@ -74,10 +74,10 @@ const Home = () => {
                     carioca, nascido e crescido no Rio de Janeiro. Sempre fui
                     muito apaixonado em tecnologia, adoro videogames, computadores.
                     Sempre fui muito dedicado aos estudos e, quando estava no meu ensino médio
-                    fazendo um curso de Web Design, tive meu primeiro contato com programação.
-                    Desde então eu segui estudando por conta própria, até que ingressei na Trybe
-                    e à partir daí venho evoluindo mais e mais a cada dia. Meu maior desejo com a programação
-                    é poder mudar a vida das pessoas através da tecnologia trazendo um impacto positivo.
+                    fazendo um curso de Web Design, tive meu primeiro contato com programação, onde me apaixonei e
+                    desde então eu segui estudando por conta própria, até que ingressei na Trybe
+                    e à partir daí venho evoluindo mais e mais a cada dia. Meu maior objetivo com a programação
+                    é poder impactar a vida das pessoas positivamente através da tecnologia.
                 </div>
             </section>
 
