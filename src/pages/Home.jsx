@@ -73,12 +73,11 @@ const Home = () => {
                 <div className="text-lg m-10 font-mono w-96">Meu nome é Mateus felipe Ribeiro Capitanio, tenho 26 anos,
                     carioca, nascido e crescido no Rio de Janeiro. Sempre fui
                     muito apaixonado em tecnologia, adoro videogames, computadores.
-                    Sempre fui muito dedicado aos estudos, e quando estava no meu ensino médio
-                    fazendo um curso de Web Design, eu tive o meu primeiro contato com programação.
+                    Sempre fui muito dedicado aos estudos e, quando estava no meu ensino médio
+                    fazendo um curso de Web Design, tive meu primeiro contato com programação.
                     Desde então eu segui estudando por conta própria, até que ingressei na Trybe
                     e à partir daí venho evoluindo mais e mais a cada dia. Meu maior desejo com a programação
-                    é poder mudar a vida das pessoas através da tecnologia, e também gostaria de trabalhar com
-                    desenvolvimento de jogos futuramente.
+                    é poder mudar a vida das pessoas através da tecnologia trazendo um impacto positivo.
                 </div>
             </section>
 
