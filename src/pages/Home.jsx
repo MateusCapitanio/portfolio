@@ -1,11 +1,16 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../components/Header';
 
 import '../styles/homeStyle.css';
 import CardSkills from '../components/CardSkills';
 
 const Home = () => {
+  const [visibleLinks, setvisibleLinks] = useState(false);
   useEffect(() => {
+    const windowWidth = window.innerWidth;
+    if (windowWidth < 992) {
+      setvisibleLinks(true)
+    }
     const observer = new IntersectionObserver((entries) => {
       if (entries.some((entry) => entry.isIntersecting)) {
         const arrayEntries = Array.from(entries);
@@ -72,6 +77,57 @@ const Home = () => {
         </section>
         <img className="w-64 sm:w-auto mt-20 rounded-full" alt="perfilPhoto" src="https://avatars.githubusercontent.com/u/82842070?v=4" />
       </main>
+      <section className='flex justify-center items-center mt-7 gap-4'>
+      {visibleLinks && (
+          <>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5521973047946&text&type=phone_number&app_absent=0"
+              target="_blank"
+              className="
+                        font-medium border
+                        border-gray-800
+                        p-1
+                        px-4
+                        rounded
+                        hover:bg-green-500
+                        hover:text-white
+                        hover:border-white
+                        hover:duration-300"
+              rel="noreferrer"
+            >Whatsapp</a>
+            <a
+              href="https://www.linkedin.com/in/mateuscapitanio/"
+              target="_blank"
+              className="
+                        font-medium border
+                        border-gray-800
+                        p-1
+                        px-4
+                        rounded
+                        hover:bg-blue-500
+                        hover:text-white
+                        hover:border-white
+                        hover:duration-300"
+              rel="noreferrer"
+            >Linkedin</a>
+            <a
+              href="https://www.github.com/mateuscapitanio/"
+              target="_blank"
+              className="
+                        font-medium border
+                        border-gray-800
+                        p-1
+                        px-4
+                        rounded
+                        hover:bg-black-950
+                        hover:text-white
+                        hover:border-white
+                        hover:duration-300"
+              rel="noreferrer"
+            >Github</a>
+          </>
+        )}
+      </section>
 
       <div id="sobre" className="flex justify-center">
         <hr />
