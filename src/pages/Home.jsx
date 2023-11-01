@@ -90,6 +90,7 @@ const Home = () => {
           é poder impactar a vida das pessoas positivamente através da tecnologia.
         </div>
       </section>
+      {/*Atualizando branch*/}
 
       <div className="flex justify-center">
         <hr />
