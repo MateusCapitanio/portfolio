@@ -5,7 +5,8 @@ import {
     SiDocker,
     SiTailwindcss,
     SiTypescript,
-    SiExpress
+    SiExpress,
+    SiNextdotjs
 } from 'react-icons/si';
 import { IoLogoNodejs } from 'react-icons/io';
 
@@ -14,8 +15,8 @@ const CardSkills = () => {
         <div>
             <section className="flex flex-wrap justify-center">
                 <div className="flex flex-col items-center text-cente text-white h-44 pt-10 rounded-md	 m-4 p-4 max-w-md w-36 hover:bg-yellow-200 hover:text-black-950 hover:duration-300 border border-yellow-200 text-xl">
-                    <SiReact size={45} color="aquamarine" />
-                    <p className="mt-4">React.js</p>
+                    <SiNextdotjs size={45} color="white" />
+                    <p className="mt-4">Next.js</p>
                 </div>
                 <div className="flex flex-col items-center text-cente text-white h-44 pt-10 rounded-md	 m-4 p-4 max-w-md w-36 hover:bg-yellow-200 hover:text-black-950 hover:duration-300 border border-yellow-200 text-xl">
                     <SiTypescript size={45} color="blue" />
