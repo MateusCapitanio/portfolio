@@ -49,6 +49,7 @@ const Home = () => {
             <p>Estudo e trabalho com Javascript, Typescript, React.js, Next.js há um pouco mais <strong>3 anos.</strong></p>
             <p>Obrigado por ter dado uma passadinha aqui, aproveite pra entrar em contato.</p>
           </div>
+          
           <section className="text-center md:text-left mt-10 text-left">
             <h2 className="text-2xl my-4 font-extrabold">Envie-me um email:</h2>
             <a
@@ -64,7 +65,9 @@ const Home = () => {
                                 border-slate-800"
               href="mailto:mateuscapitaniowork@gmail.com"
             >mateuscapitaniowork@gmail.com</a>
+            
           </section>
+          
 
         </section>
         <img className="w-64 sm:w-auto mt-20 rounded-full" alt="perfilPhoto" src="https://avatars.githubusercontent.com/u/82842070?v=4" />
@@ -72,6 +75,7 @@ const Home = () => {
 
       <div id="sobre" className="flex justify-center">
         <hr />
+        
       </div>
 
       <section className="flex justify-around init-hidden flex-wrap">

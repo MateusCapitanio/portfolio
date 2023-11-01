@@ -16,7 +16,7 @@ const Header = () => {
         <li className="mx-6 font-medium"><a href="#habilidades">Habilidades</a></li>
 
       </ul>
-      {/* <section>
+      <section>
         <a
           href="https://api.whatsapp.com/send/?phone=5521973047946&text&type=phone_number&app_absent=0"
           target="_blank"
@@ -49,7 +49,7 @@ const Header = () => {
                         hover:duration-300"
           rel="noreferrer"
         >Linkedin</a>
-      </section> */}
+      </section>
     </header>
   );
 }
